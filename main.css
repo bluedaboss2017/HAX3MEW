@@ -37,7 +37,7 @@ a {
 
 .firstP {
     border: 1px solid black;
-    margin: 5px;
+    margin: 5px auto;
     width: 450px;
     height: 300px;
     background-color: yellow;
