@@ -1,10 +1,10 @@
 html {
     background-color: #008080;
 }
-body{
+body {
     width: 70%;
     margin: 0 auto;
-    bordeR: 1px solid black;
+    border: 1px solid black;
     height: 20%;
     background-color: antiquewhite;
 }
@@ -26,13 +26,19 @@ a {
 .header ul { 
     display: flex;
     margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .about {
-    height: 1200px;
+    height: 100vh;
+    display: flex;
+}
+
+.about img {
+    height: 300px;
+    margin: 5px auto;
+    border: 6px solid green;
 }
 
 .firstP {
@@ -42,13 +48,15 @@ a {
     height: 300px;
     background-color: yellow;
     box-shadow: 2px 2px 5px 5px black;
+    font-size: 150%;
+    padding: 15px 15px 15px 15px;
 }
 
 li {
     list-style-type: none;
 }
 
-.header ul li button{
+.header ul li button {
     width: 150px;
     border: 1px solid black;
     text-align: center;
@@ -61,5 +69,24 @@ li {
 
 .header ul li button:hover {
     background-color: #008080;
-    
 }
+
+.bottom {
+    border: 1px solid black;
+    width: 40vw;
+    background-color: yellow;
+    box-shadow: 2px 2px 5px 5px black;
+    font-size: 80%;
+    padding: 15px 15px 15px 15px;
+}
+
+footer {
+    background-color: khaki;
+    height: 5vh;
+    align-content: center;
+}
+
+footer > p {
+    margin: 5px auto;
+}
+
