@@ -1,18 +1,14 @@
 html {
     background-color: #008080;
-    overflow: hidden;
 }
 body {
     width: 70%;
     margin: 0 auto;
-    border: 1px solid black;
     height: 100vh;
     background-color: antiquewhite;
-    border: 1px solid black;
 }
 
 .wrapper {
-    border: 1px solid black;
     height: 95vh;
 }
 
@@ -44,6 +40,7 @@ a {
 
 .about img {
     height: 45vh;
+    margin: 0 auto;
     border: 6px solid green;
 }
 
@@ -53,8 +50,9 @@ a {
     margin: 5px auto;
     background-color: yellow;
     box-shadow: 2px 2px 5px 5px black;
-    font-size: 1.4vw;
+    font-size: 1.8vw;
     padding: 15px 15px 15px 15px;
+    overflow: hidden;
 }
 
 li {
@@ -100,4 +98,68 @@ footer {
 footer > p {
     margin: 5px auto;
     font-size: 1vw;
+}
+
+@media (max-width: 850px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+        height: 100vh;
+    }
+    
+    .about img {
+        height: 33vh;
+    }
+    
+    .firstP {
+        height: 30vh;
+        width: 40vw;
+        font-size: 2vw;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    .header ul li button {
+        width: 120px;
+    }
+    
+    .bottom {
+        width: 60vw;
+        height: 3vh;
+        font-size: 1vw;
+        padding: .4vh 1vh 1.5vh 1vh;
+        margin-top: 32vh;
+        font-size: 1.5vw;
+    }
+    
+    footer {
+        height: 5vh;
+        width: 100%;
+    }
+    
+    footer > p {
+        margin: 5px auto;
+        font-size: 2.1vw;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .about img {
+        height: 27vh;
+    }
+    
+    .firstP {
+        height: 25vh;
+        width: 31vw;
+        font-size: 2vw;
+        padding: 10px 10px 10px 10px;
+    }
+    .bottom {
+        width: 60vw;
+        height: 3vh;
+        font-size: 1vw;
+        padding: .4vh 1vh 1.5vh 1vh;
+        margin-top: 32vh;
+        font-size: 1.5vw;
+    }
 }
