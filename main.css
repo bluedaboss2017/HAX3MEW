@@ -153,9 +153,7 @@ footer > p {
 /* Safari is psychotic and doesn't know what max-width is */
 @media (max-device-width: 850px) {
     body {
-        width: 100%;
-        margin: 0 auto;
-        height: 100vh;
+        width: 90%;
     }
     
     .about img {
@@ -165,12 +163,11 @@ footer > p {
     .firstP {
         height: 30vh;
         width: 60vw;
-        font-size: 2vw;
-        padding: 10px 10px 10px 10px;
+        font-size: 3vw;
     }
     
     .header ul li button {
-        width: 120px;
+        width: 15vw;
     }
     
     .bottom {
@@ -179,12 +176,12 @@ footer > p {
         font-size: 1vw;
         padding: .4vh 1vh 1.5vh 1vh;
         margin-top: 32vh;
-        font-size: 3vw;
+        font-size: 2vw;
     }
     
     footer {
         height: 5vh;
-        width: 100%;
+        width: 90%;
     }
     
     footer > p {
