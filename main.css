@@ -148,14 +148,28 @@ footer > p {
     }
 }
 
-
-@media (max-width: 500px) {
+@media (max-device-width: 850px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+        height: 100vh;
+    }
+    
+    .about img {
+        display: none;
+    }
+    
     .firstP {
-        height: 25vh;
-        width: 31vw;
+        height: 30vh;
+        width: 60vw;
         font-size: 2vw;
         padding: 10px 10px 10px 10px;
     }
+    
+    .header ul li button {
+        width: 120px;
+    }
+    
     .bottom {
         width: 60vw;
         height: 3vh;
@@ -163,5 +177,15 @@ footer > p {
         padding: .4vh 1vh 1.5vh 1vh;
         margin-top: 32vh;
         font-size: 1.5vw;
+    }
+    
+    footer {
+        height: 5vh;
+        width: 100%;
+    }
+    
+    footer > p {
+        margin: 5px auto;
+        font-size: 2.1vw;
     }
 }
