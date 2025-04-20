@@ -107,7 +107,7 @@ footer > p {
     text-align: center;
 }
 
-@media screen and (max-width: 850px) {
+@media (max-width: 850px) {
     body {
         width: 90%;
         margin: 0 auto;
@@ -183,7 +183,7 @@ footer > p {
     footer {
         height: 5vh;
         width: 90%;
-        margin-left: 4.99vw;
+        text-align: center;
     }
     
     footer > p {
