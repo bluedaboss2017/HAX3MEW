@@ -85,9 +85,10 @@ li {
     box-shadow: 2px 2px 5px 5px black;
     font-size: 1vw;
     padding: .4vh 2vh 3vh 2vh;
-    margin-top: 32vh;
-    position: absolute;
     text-align: center;
+    margin: auto;
+    margin-top: 6vh;
+    align-content: center;
 }
 
 footer {
@@ -135,7 +136,7 @@ footer > p {
         height: 3vh;
         font-size: 1vw;
         padding: .4vh 1vh 1.5vh 1vh;
-        margin-top: 32vh;
+        margin-top: 20vh;
         font-size: 1.5vw;
     }
     
@@ -176,14 +177,14 @@ footer > p {
         height: 3vh;
         font-size: 1vw;
         padding: .4vh 1vh 1.5vh 1vh;
-        margin-top: 32vh;
+        margin-top: 20vh;
         font-size: 2vw;
     }
     
     footer {
         height: 5vh;
         width: 90%;
-        text-align: center;
+        left: 4.99vw;
     }
     
     footer > p {
