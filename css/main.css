@@ -1,0 +1,152 @@
+html {
+    background: url(https://www.minecraft.net/content/dam/minecraftnet/franchise/component-library/parallaxC/scene_default/day/Focus_Cherry.png);
+    background-color: #6EB1FF;
+}
+body {
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 100vh;
+    background: url(https://i.pinimg.com/474x/0e/1f/c2/0e1fc2e0638e878d3ba8db495152164c.jpg);
+}
+
+.wrapper {
+    height: 95vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    border-bottom: 1px solid black;
+    background-color: #6EB1FF;
+}
+
+.header ul { 
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.about {
+    height: 45vh;
+    display: flex;
+    margin: 0 auto;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 1vh;
+}
+
+.about img {
+    height: 45vh;
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px 2px green;
+    border: 4px solid green;
+}
+
+.firstP {
+    height: 42vh;
+    width: 31vw;
+    margin: 5px auto;
+    background-color: yellow;
+    box-shadow: 2px 2px 5px 5px black;
+    font-size: 1.8vw;
+    padding: 15px 15px 15px 15px;
+    overflow: hidden;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header ul li button {
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 20px;
+    height: 25px;
+    box-shadow: black 1.5px 1.5px 1.5px;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+
+.header ul li button:hover {
+    background-color: #008080;
+}
+
+.bottom {
+    border: 1px solid black;
+    width: 40vw;
+    height: 3vh;
+    background-color: yellow;
+    box-shadow: 2px 2px 5px 5px black;
+    font-size: 1vw;
+    padding: .4vh 2vh 3vh 2vh;
+    margin-top: 32vh;
+    position: absolute;
+    text-align: center;
+}
+
+footer {
+    left: 14.9vw;
+    border: 1px solid black;
+    background-color: #6EB1FF;
+    height: 5vh;
+    width: 70%;
+    align-content: center;
+    position: absolute;
+}
+
+footer > p {
+    margin: 5px auto;
+    font-size: 1vw;
+    margin-left: 15px;
+    text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+    body {
+        width: 90%;
+        margin: 0 auto;
+        height: 100vh;
+    }
+    
+    .about img {
+        display: none;
+    }
+    
+    .firstP {
+        height: 30vh;
+        width: 60vw;
+        font-size: 2vw;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    .header ul li button {
+        font-size: 70%;
+        width: 110px;
+    }
+    
+    .bottom {
+        width: 60vw;
+        height: 3vh;
+        font-size: 1vw;
+        padding: .4vh 1vh 1.5vh 1vh;
+        margin-top: 32vh;
+        font-size: 1.5vw;
+    }
+    
+    footer {
+        left: 4.9vw;
+        height: 5vh;
+        width: 90%;
+    }
+    
+    footer > p {
+        margin: 5px auto;
+        font-size: 2.1vw;
+    }
+}
