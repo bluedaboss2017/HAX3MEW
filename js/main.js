@@ -8,7 +8,7 @@ getSubscribers = () => {
             return response.json()
     }).then(data => {
             textToUpdate.innerText = `I'm HAX3MEW, and I run a gaming YouTube channel that is currently at ${data["items"][0].statistics.subscriberCount} subscribers. I occasionally upload videos, but I mainly stream with friends, currently on Fridays and Weekends.`
-            document.querySelector('.bottom').innerText = `Current Stats: ${data["items"][0].statistics.viewCount} views, ${data["items"][0].statistics.subscriberCount} Subscribers, ${data["items"][0].statistics.videoCount} videos`
+            document.querySelector('.stats').innerText = `Current Stats:\n\nViews: ${data["items"][0].statistics.viewCount} \nSubscribers: ${data["items"][0].statistics.subscriberCount} \nVideos: ${data["items"][0].statistics.videoCount}`
         });
 };
 
