@@ -111,27 +111,6 @@ footer > p {
     text-align: center;
 }
 
-a.troll:link {
-    color: black;
-    text-decoration: none;
-    cursor: default;
-}
-
-a.troll:visited {
-    color: black;
-    text-decoration: none;
-}
-
-a.troll:hover {
-    color: black;
-    text-decoration: none;
-}
-
-a.troll:active {
-    color: black;
-    text-decoration: none;
-}
-
 @media (max-width: 850px) {
     body {
         width: 90%;
